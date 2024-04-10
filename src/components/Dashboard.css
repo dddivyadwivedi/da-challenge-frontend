@@ -1,0 +1,84 @@
+.rbc-time-content,
+.rbc-time-header-gutter {
+  display: none;
+}
+
+.rbc-row-content {
+  height: 1000px;
+}
+
+.rbc-row-segment {
+  padding: 5px;
+}
+
+.rbc-event-content {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 5px;
+}
+
+.rbc-toolbar-label {
+    flex-grow: 1;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    margin: 0 20px;
+    
+   
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    background-color: #f8f8f8;
+  }
+  
+  
+
+.calendar {
+  height: 30%;
+  margin: 50px;
+  margin-top: 160px;
+}
+
+.addTaskButton {
+  margin-top: 10px;
+}
+
+.rbc-event {
+  color: black;
+  background-color: white;
+  border-radius: 0;
+}
+
+.rbc-header {
+    overflow: hidden;
+    flex: 1 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 3px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 90%;
+    min-height: 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+ 
+  .rbc-button-link {
+    background-color: #007bff; 
+    color: #fff;
+    border-radius: 5px; 
+    font-size: 20px;
+    margin : 0 auto;
+    cursor: not-allowed;
+  }
+
+
+  
+  
+  
+  

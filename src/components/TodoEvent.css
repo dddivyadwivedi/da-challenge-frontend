@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  flex-wrap: wrap; 
+}
+
+
+
+
+
+.complete {
+  cursor: pointer;
+}
+
+.completed {
+  background-color: rgb(66, 218, 66);
+}
+
+.pending {
+  background-color: #f8f9fa; 
+}
+
+.delete {
+  cursor: pointer;
+}
+
+

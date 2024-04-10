@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { Container, Row, Col, Button,  } from 'react-bootstrap';
 
-function App() {
+import moment from 'moment';
+import 'react-big-calendar/lib/css/react-big-calendar.css';
+import Dashboard from './components/DashBoard';
+
+
+
+
+const App = () => {
+ 
+  const [currentWeek, setCurrentWeek] = useState(moment().startOf('week'));
+ 
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container fluid>
+      <Row className="mt-3" >
+        <Col>
+          <h1>Task Scheduler</h1>
+        </Col>
+      </Row>
+     
+      <Row className="mt-3">
+        <Col>
+          <Dashboard currentWeek={currentWeek} />
+        </Col>
+      </Row>
+    
+ 
+    </Container>
   );
-}
+};
 
 export default App;
